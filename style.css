@@ -293,7 +293,8 @@ body {
 .content {
   justify-content: space-around;
   display: flex;
-  width: 100%;
+  max-width: 1500px;
+  min-width: 1400px;
   background: linear-gradient(to left,
       var(--content-liner-gradient-background-first),
       var(--content-liner-gradient-background-second));
@@ -306,7 +307,7 @@ body {
   margin-top: 150px;
   border-radius: 3%;
   width: 35%;
-  min-width: 35%;
+
   background-image: url("https://raw.githubusercontent.com/MichalR90/Portfolio/main/assets/portfolio2.png");
   background-position: center;
   background-size: cover;
@@ -316,7 +317,7 @@ body {
 .content-right {
   margin-top: 150px;
   width: 50%;
-  min-width: 50%;
+
   height: 80%;
   border-left: 2px solid var(--scroll-border-color-right);
 }
