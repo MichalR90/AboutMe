@@ -307,7 +307,6 @@ body {
   margin-top: 150px;
   border-radius: 3%;
   width: 35%;
-
   background-image: url("https://raw.githubusercontent.com/MichalR90/Portfolio/main/assets/portfolio2.png");
   background-position: center;
   background-size: cover;
@@ -317,7 +316,6 @@ body {
 .content-right {
   margin-top: 150px;
   width: 50%;
-
   height: 80%;
   border-left: 2px solid var(--scroll-border-color-right);
 }
@@ -353,7 +351,8 @@ body {
 
 #scroll_about {
   display: block;
-  width: 100%;
+  max-width: 1500px;
+  min-width: 1400px;
   background: linear-gradient(to left,
       var(--content-liner-gradient-background-first),
       var(--content-liner-gradient-background-second));
@@ -362,26 +361,29 @@ body {
 }
 
 #scroll_skills {
-  display: block;
-  width: 100%;
   background: linear-gradient(to left,
       var(--content-liner-gradient-background-first),
       var(--content-liner-gradient-background-second));
+  display: block;
+  max-width: 1500px;
+  min-width: 1400px;
   min-height: var(--min-height-contents);
   border-bottom: 2px solid var(--border-bottom);
 }
 
 #scroll_projects {
-  display: block;
-  width: 100%;
   background: linear-gradient(to left,
       var(--content-liner-gradient-background-first),
       var(--content-liner-gradient-background-second));
+  display: block;
+  max-width: 1500px;
+  min-width: 1400px;
   min-height: var(--min-height-contents);
   border-bottom: 2px solid var(--border-bottom);
 }
 
 .scroll-description-headers {
+
   padding: 100px 50px 60px;
   font-weight: 500;
   font-size: 30px;
@@ -397,17 +399,18 @@ body {
   width: 60%;
   background: -webkit-linear-gradient(var(--scroll-description-content-first),
       var(--scroll-description-content-second));
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .main-scroll-description-content {
+  background: linear-gradient(to left,
+      var(--content-liner-gradient-background-first),
+      var(--content-liner-gradient-background-second));
+  justify-content: space-around;
   display: flex;
-
-  justify-content: space-between;
-  margin: auto;
-  width: 90%;
+  max-width: 1500px;
+  min-width: 1400px;
 }
 
 .scroll-description-content-left {
@@ -427,7 +430,6 @@ body {
       var(--description-shema-color-text-second));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
 
 .description-schema-about p {
