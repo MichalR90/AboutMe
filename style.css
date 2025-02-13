@@ -307,13 +307,14 @@ body {
   margin-top: 150px;
   border-radius: 3%;
   width: 35%;
-  background-image: url("https://raw.githubusercontent.com/MichalR90/Portfolio/main/assets/portfolio2.png");
+  background-image: url('./assets/portfolio2.png');
   background-position: center;
   background-size: cover;
   height: 50%;
 }
 
 .content-right {
+
   margin-top: 150px;
   width: 50%;
   height: 80%;
@@ -414,6 +415,8 @@ body {
 }
 
 .scroll-description-content-left {
+  padding: 10px 50px;
+  ;
   width: 50%;
   height: 800px;
   border-right: 2px solid var(--scroll-border-color-right);
