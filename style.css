@@ -307,7 +307,7 @@ body {
   border-radius: 3%;
   width: 35%;
   min-width: 35%;
-  background-image: url("/assets/portfolio2.png");
+  background-image: url("./assets/portfolio2.png");
   background-position: center;
   background-size: cover;
   height: 50%;
