@@ -338,14 +338,14 @@ body {
   height: 1200px;
   border-bottom: 2px solid var(--border-bottom);
   background-image: url('./assets/portfolio.png');
+  background-size: cover;
 }
 
 .content-left {
   display: Flex;
   margin-top: 150px;
   border-radius: 3%;
-  width: 35%;
-
+  width: 50%;
   background-position: center;
   background-size: cover;
   height: 50%;
@@ -372,8 +372,9 @@ body {
 }
 
 .content-description {
+  margin: 20px 80px;
   display: flex;
-  padding: 10px 30px;
+  padding: 10px 40px;
   font-size: 24px;
   color: white;
 }
@@ -435,7 +436,7 @@ body {
 
 .scroll-description-content-left {
   padding: 10px 50px;
-
+  margin: 20px 80px;
   width: 50%;
   height: 800px;
   border-right: 2px solid var(--scroll-border-color-right);
