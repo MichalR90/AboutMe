@@ -10,7 +10,7 @@
 
 :root {
   --body-background: rgb(10, 10, 10);
-  --content-liner-gradient-background-first: rgb(39, 38, 38);
+  --content-liner-gradient-background-first: rgb(30, 33, 33);
   --content-liner-gradient-background-second: rgb(0, 0, 0);
   --nav-bar-background: rgb(28, 28, 28);
   --logo-gradient-first: #3c00ff;
@@ -337,6 +337,7 @@ body {
       var(--content-liner-gradient-background-second));
   height: 1200px;
   border-bottom: 2px solid var(--border-bottom);
+  background-image: url('./assets/portfolio.png');
 }
 
 .content-left {
@@ -344,7 +345,7 @@ body {
   margin-top: 150px;
   border-radius: 3%;
   width: 35%;
-  background-image: url('./assets/portfolio2.png');
+
   background-position: center;
   background-size: cover;
   height: 50%;
