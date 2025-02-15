@@ -97,18 +97,20 @@ body {
 }
 
 .nav-links {
-
+  margin-left: 100px;
   width: 65%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap: 100px;
 }
 
 .nav-links-toggle {
   position: absolute;
   display: block;
-  margin: 105px 370px;
+  margin: 80px 450px;
+  gap: 70px;
   width: 300px;
+  justify-content: center;
 }
 
 .nav-links-toggle li {
@@ -119,7 +121,6 @@ body {
 }
 
 .nav-links-toggle li a {
-
   font-weight: 600;
   font-size: 20px;
 }
@@ -145,6 +146,7 @@ body {
 .drop-down {
   position: absolute;
   display: none;
+
 }
 
 .drop-down li {
@@ -199,13 +201,6 @@ body {
   display: none;
 }
 
-.burger-toggle {
-  border-radius: 7px;
-  justify-content: center;
-  background-color: var(--nav-bar-background);
-  border: none;
-  display: none;
-}
 
 .burger-toggle .line:nth-child(1) {
   transform: translateY(15px) rotate(45deg)
@@ -232,12 +227,85 @@ body {
   background-color: var(--line-button-color);
 }
 
+/* windows */
+@media(min-width: 767px) {
+  .nav-links {
+    display: flex;
+  }
 
-/* phone */
-@media screen and (max-width: 1279px) {
+  .nav-links li:hover .drop-down {
+    margin: 0px -50px;
+    display: block;
+  }
 
+  .nav-links-toggle {
+    width: 50%;
+    display: flex;
+    margin-top: 18px;
+  }
+
+  .burger {
+    display: none;
+  }
+}
+
+/* phone rotated */
+@media (max-width: 767px) {
   .nav-links {
     display: none;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    width: 180px;
+  }
+
+  .nav-links li:hover .drop-down {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links-toggle {
+    margin: 105px 80px;
+    padding: 1px;
+    display: block;
+    text-align: center;
+  }
+
+  .nav-links-toggle li {
+    margin: 1px;
+    display: block;
+    background-color: rgb(30, 30, 30);
+    box-shadow: 2px 1px 1px var(--shadowbox-color)
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+/* phone */
+@media (max-width: 500px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    width: 200px;
+  }
+
+  .nav-links li:hover .drop-down {
+    margin: 10px 100px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .nav-links-toggle {
@@ -249,64 +317,13 @@ body {
 
   .nav-links-toggle li {
     margin: 1px;
-    padding: 30px;
     display: block;
     background-color: rgb(30, 30, 30);
     box-shadow: 2px 1px 1px var(--shadowbox-color)
   }
 
-  .nav-links-toggle li a {
-    width: 100%;
-    display: block;
-  }
-
   .burger {
     display: block;
-  }
-
-  .burger-toggle:nth-child() {
-    border-radius: 7px;
-    justify-content: center;
-    background-color: var(--nav-bar-background);
-    border: none;
-  }
-}
-
-/* phone rotation  */
-@media screen and (min-width: 700px) {
-  .nav-links li:hover .drop-down {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .nav-links li a {
-    width: 230px;
-  }
-
-  .nav-links li {
-    width: 230px;
-  }
-}
-
-/* windows */
-@media screen and (min-width: 1280px) {
-
-  .nav-links {
-    display: flex;
-  }
-
-  .nav-links-toggle {
-    width: 65%;
-    margin: 105px 370px;
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
-    justify-content: space-around;
-  }
-
-  .burger {
-    display: none;
   }
 }
 
@@ -369,46 +386,19 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-#scroll_about {
-  display: block;
-  max-width: 1500px;
-  min-width: 1400px;
-  background: linear-gradient(to left,
-      var(--content-liner-gradient-background-first),
-      var(--content-liner-gradient-background-second));
-  min-height: var(--min-height-contents);
-  border-bottom: 2px solid var(--border-bottom);
-  height: auto;
-  min-height: 1200px;
-
-}
-
-#scroll_skills {
-  background: linear-gradient(to left,
-      var(--content-liner-gradient-background-first),
-      var(--content-liner-gradient-background-second));
-  display: block;
-  max-width: 1500px;
-  min-width: 1400px;
-  min-height: var(--min-height-contents);
-  border-bottom: 2px solid var(--border-bottom);
-  height: auto;
-  min-height: 1200px;
-
-}
-
+#scroll_about,
+#scroll_skills,
 #scroll_projects {
-  background: linear-gradient(to left,
-      var(--content-liner-gradient-background-first),
-      var(--content-liner-gradient-background-second));
   display: block;
   max-width: 1500px;
   min-width: 1400px;
+  background: linear-gradient(to left,
+      var(--content-liner-gradient-background-first),
+      var(--content-liner-gradient-background-second));
   min-height: var(--min-height-contents);
   border-bottom: 2px solid var(--border-bottom);
   height: auto;
   min-height: 1200px;
-
 }
 
 .scroll-description-headers {
