@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="nav-bar">
+            <div class="logo">
+                <li><a>Frontend Developer</a></li>
+            </div>
+            <button class="burger" id="btn_burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+            <div class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#scroll_about">About</a></li>
+                <li><a href="#scroll_skills">Skills</a></li>
+                <li><a href="#scroll_projects">Projects</a></li>
+                <li><a>Contact
+                        <ul class="drop-down">
+                            <li><a href="mailto:michalrutkowski90@wp.pl">michalrutkowski90@wp.pl</a></li>
+                            <li><a href="tel:+48784455771">+48 784 455 771</a></li>
+                        </ul>
+                    </a></li>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-left">
+
+            </div>
+            <div class="content-right">
+                <span class="content-description" id="personal_title"></span>
+                <span class="content-description" id="personal_name">Name:</span>
+                <span class="content-description" id="personal_surname">Surname:</span>
+                <span class="content-description" id="personal_age">Age:</span>
+                <span class="content-description" id="personal_position">Position:</span>
+                <span class="content-description" id="personal_country">Country:</span>
+                <span class="content-description" id="personal_skills">Skills:</span>
+            </div>
+        </div>
+        <div id="scroll_about">
+            <header class="scroll-description-headers" id="scroll-description_about_title">About</header>
+
+            <div class="main-scroll-description-content">
+                <div class="scroll-description-content-left">
+                    <div class="description-schema-about">
+                        <span id="scroll-description_schema_about_education"></span>
+                        <span id="scroll-description_schema_about_work"></span>
+                    </div>
+                </div>
+                <div class="scroll-description-content-right">
+                    <span class="scroll-description-content" id="scroll-description_content_about"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="scroll_skills">
+            <header class="scroll-description-headers" id="scroll-description_skills_title">Skills</header>
+            <div class="main-scroll-description-content">
+                <div class="scroll-description-content-left">
+                    <div class="scroll-description-schema-skills" id="scroll_description_schema_skills"></div>
+                </div>
+                <div class="scroll-description-content-right">
+                    <span class="scroll-description-content" id="scroll-description_skills_content"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="scroll_projects">
+            <header class="scroll-description-headers" id="scroll-description_projects_title">Projects</header>
+
+            <div class="main-scroll-description-content">
+                <div class="scroll-description-content-left">
+                    <div class="description-schema-projects">
+                        <a href="https://github.com/MichalR90">Github Page</a>
+                    </div>
+                </div>
+                <div class="scroll-description-content-right">
+                    <span class="scroll-description-content" id="scroll-description_projects_content"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

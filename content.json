@@ -1,0 +1,75 @@
+{
+  "about": [
+    {
+      "title": "Personal Data",
+      "name": "Michał",
+      "surname": "Rutkowski",
+      "age": "35",
+      "position": "Frontend developer",
+      "country": "Poland"
+    }
+  ],
+  "skills": [
+    {
+      "skill1": "HTML",
+      "skill2": "CSS",
+      "skill3": "JAVASCRIPT",
+      "skill4": "ANGULAR"
+    }
+  ],
+  "aboutDescription": [
+    {
+      "titleEducation": "Education",
+      "contentEducation": "2006-2010 ZSM in Świnoujście",
+      "titleWork": "Work",
+      "contentWork": "2010-2020 worked as an engineer officer on ships"
+    }
+  ],
+  "skillsProgres": [
+    {
+      "name": "HTML",
+      "progress": 90,
+      "max": 100
+    },
+    {
+      "name": "CSS",
+      "progress": 80,
+      "max": 100
+    },
+    {
+      "name": "JAVASCRIPT",
+      "progress": 70,
+      "max": 100
+    },
+    {
+      "name": "TYPE-SCRIPT",
+      "progress": 60,
+      "max": 100
+    },
+    {
+      "name": "REACT",
+      "progress": 0,
+      "max": 100
+    },
+    {
+      "name": "BOOTSTRAP",
+      "progress": 80,
+      "max": 100
+    },
+    {
+      "name": "GIT",
+      "progress": 40,
+      "max": 100
+    },
+    {
+      "name": "ANGULAR",
+      "progress": 70,
+      "max": 100
+    },
+    {
+      "name": "NODE-JS",
+      "progress": 80,
+      "max": 100
+    }
+  ]
+}
