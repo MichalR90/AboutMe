@@ -123,18 +123,11 @@ function displayskillProgressBar() {
         createSkillsProgressElement(element)
     });
 }
-
-
-
 btnBurger.addEventListener('click', () => {
 
     navLinks.classList.toggle('nav-links-toggle')
     burgerToggle.classList.toggle('burger-toggle')
-
-
 })
-
-
 await loadContent('content.json')
 await loadDescriptionText('aboutTextContent.text', 'skillsTextContent.text', 'projectsTextContent.text')
 

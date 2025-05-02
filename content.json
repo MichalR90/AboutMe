@@ -14,7 +14,7 @@
       "skill1": "HTML",
       "skill2": "CSS",
       "skill3": "JAVASCRIPT",
-      "skill4": "ANGULAR"
+      "skill4": "REACT.JS"
     }
   ],
   "aboutDescription": [
@@ -48,7 +48,7 @@
     },
     {
       "name": "REACT",
-      "progress": 0,
+      "progress": 30,
       "max": 100
     },
     {
@@ -62,12 +62,7 @@
       "max": 100
     },
     {
-      "name": "ANGULAR",
-      "progress": 70,
-      "max": 100
-    },
-    {
-      "name": "NODE-JS",
+      "name": "NODE.JS",
       "progress": 80,
       "max": 100
     }
